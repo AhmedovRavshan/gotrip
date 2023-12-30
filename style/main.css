@@ -1,0 +1,251 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: "Rubik";
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    color: #3E8989;
+}
+
+p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+header {
+    background: #3E8989;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0 32px 0;
+}
+
+.header__list {
+    display: flex;
+    width: 263px;
+    justify-content: space-between;
+}
+
+.header__nav-item {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__nav-item:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+.header__search {
+    width: 290px;
+    height: 35px;
+    display: flex;
+    border-radius: 5vh;
+}
+
+.header__search-input {
+    width: 216px;
+    height: 35px;
+    border-radius: 50px 0 0 50px;
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    border: #FFFFFF;
+}
+
+.header__search-btn {
+    color: #FFFFFF;
+    width: 70px;
+    height: 35px;
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    background: #295E5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 50px 50px 0;
+}
+
+.header__intro {
+    background: url(../imgs/HEADER-BANER\ \(1\).svg) no-repeat center;
+    background-size: cover;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__intro h1 {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.header__intro h2 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.header__intro-btn {
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 14px 78px;
+    background: #B4436C;
+    border-radius: 30px;
+}
+
+.header__intro-btn:hover {
+    color: #B4436C;
+    background: #FFFFFF;
+}
+
+.about .container {
+    text-align: center;
+}
+
+.about .container h3 {
+    margin-top: 80px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.about__content-text__items {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.about__content-text-item {
+    text-align: left;
+}
+
+.catalog .container {
+    text-align: center;
+    margin-top: 97px;
+}
+
+.catalog__items {
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog__item {
+    height: 359px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.catalog__item-a {
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+
+.catalog__item-a:hover {
+    color: #B4436C;
+}
+
+.contacts {
+    margin-top: 100px;
+}
+
+.contacts__details {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__details__text {
+    width: 555px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.contacts__details_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts__details_contacts p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+footer {
+    background-color: #3E8989;
+    margin-top: 104px;
+    padding-bottom: 15px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__links {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+footer .container p {
+    margin-top: 59px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;      
+}
